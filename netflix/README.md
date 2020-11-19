@@ -1,4 +1,4 @@
 # Netflix - NetflixClone
 
 
-> You find everything in the `netflixclone` folder
+> You will find it all in the `netflixclone` folder.
