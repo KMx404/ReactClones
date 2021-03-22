@@ -1,0 +1,62 @@
+.header {
+    background-color: #131921;
+    display: flex;
+    align-items: center;
+    position: sticky; /* better than "fixed" because "it looks cleaner" */
+    top: 0;
+    z-index: 100; /* this prioritizes top layer on page. 0-100 with 100 being max */
+}
+.header__logo {
+    width: 100px;
+    object-fit: contain;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.header__search {
+    display: flex;
+    flex: 1; /* prioritizes the flex. this one takes the most space */
+}
+.header__searchInput {
+    padding: 10px;
+    height: 12px;
+    border: none;
+    width: 100%;
+}
+.header__searchIcon {
+    background-color: #cd9042;
+    padding: 5px;
+    height: 22px !important;
+}
+.header__nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+.header__link {
+    color: white;
+    text-decoration: none; /* removes the underline default on links */
+    
+}
+.header__option {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.header__optionLineOne {
+    font-size: 10px;
+}
+.header__optionLineTwo {
+    font-size: 13px;
+    font-weight: 800; /* How bold the text is. by 100s */
+}
+.header__optionBasket {
+    display: flex;
+    align-items: center;
+}
+.header__basketCount{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 13px;
+    font-weight: 800;
+}

@@ -1,0 +1,21 @@
+.tlist {
+	padding: 0 10px;
+}
+.tlist__cont {
+	display: flex;
+}
+.tlist__title {
+	font-size: 12px;
+    margin-bottom: 7px;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+}
+.tlist__wrapper {
+	padding: 20px;
+}
+.tlist__wrapper--grey {
+	background-color: #111;
+}
+.tlist__wrapper--tall .tile {
+	height: 300px;
+}
